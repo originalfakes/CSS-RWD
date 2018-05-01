@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS RWD</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="menu-icon" onclick="func()">
+				<img src="img/nav.png" alt="none">
+			</div>
+			<div class="logo">
+				<img src="img/RD.png" alt="none">
+			</div>
+			<div class="menu">
+				<ul id="submenu">
+					<li><a href="index.html" class="current">Home</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Our Team</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<section class="banner">
+		<div class="banner-inner">
+			<img src="img/rocket_design.png" alt="無法顯示圖片">
+		</div>
+	</section>
+<!---End Banner-->
+	<section class="one-fourth" id="html">
+		<td><i class="fa fa-html5"></i></td>
+		<h3>HTML</h3>
+	</section>
+	<section class="one-fourth" id="css">
+		<td><i class="fa fa-css3"></i></td>
+		<h3>CSS</h3>
+	</section>
+	<section class="one-fourth" id="seo">
+		<td><i class="fa fa-search"></i></td>
+		<h3>SEO</h3>
+	</section>
+	<section class="one-fourth" id="social">
+		<td><i class="fa fa-users"></i></td>
+		<h3>SOCIAL</h3>
+	</section>
+<!---end four column section-->
+	<section class="inner-wrapper">
+		<article id="tablet">
+			<img src="img/hand_ipad.png" alt="無法顯示圖片">
+		</article>
+		<aside id="tablet2">
+			<h2>MOBILE. TABLET. DESKTOP</h2>
+			<p>Lorem ipsum dolor sit amet eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</aside>
+	</section>
+	<section class="inner-wrapper-2">
+		<article id="mobile">
+			<h2>ACROSS EACH DEVICE</h2>
+			<p>
+				Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+    </div>
+			</p>
+		</article>
+		<aside class="hand-mobile">
+			<img src="img/hand_mobile.png" alt="無法顯示圖片">
+		</aside>
+	</section>
+	<section class="inner-wrapper">
+		<article>
+			<img src="img/desktop.png">
+		</article>
+		<aside id="desktop">
+			<p>
+        Lorem ipsum dolor sit lit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</aside>
+	</section>
+<!---End Main Two Column Sections-->
+	<section class="inner-wrapper-3">
+		<section class="one-third" id="google">
+			<h3>GOOGLE SEARCH</h3>
+			<p>
+				We also ues Google Analytics to make informed decisions on how a client's web site is performing. The data we collect plays a big role in creating the best possible site for your customers.
+			</p>
+		</section>
+		<section class="one-third" id="marketing">
+			<h3>MARKETING</h3>
+			<p>
+				A cohesive brand can be an incredibly potent tool in business, regardless of your product. People will purchase a product with a recgonize brand over one that's more obscure.
+			</p>
+		</section>
+		<section class="one-third" id="customers">
+			<h3>HAPPY CUSTOMERS</h3>
+			<p>
+				The proof is in the pudding, and our satisfied customers love our pudding.
+			</p>
+		</section>
+	</section>
+<!---End Three Column Sections-->
+	<section id="smiley">
+		<h2>: )</h2>
+	</section>
+<!---End Smiley Face-->
+	<footer>
+		<ul class="social">
+			<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="https://www.google.com.tw/?gfe_rd=cr&dcr=0&ei=j0DHWse3EvGm8werxa3ABg" target="blank"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="https://twitter.com/?lang=zh-tw" target="blank"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://www.youtube.com/" target="blank"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="https://www.instagram.com/?hl=zh-tw" target="blank"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+	</footer>
+<!---End Footer Section-->
+	<footer class="second">
+		<p>&copy; Rocket design</p>
+	</footer>
+<!---End Section Footer -->
+	<script>
+		let func = () => document.getElementById("submenu").classList.toggle("showing");
+	</script>
+</body>
+
+</html>
